@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="64cm" height="68cm" viewBox="-60 -23 1273 1358" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-2.33095" y="-21.6985" width="318" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2.33095" y="-21.6985" width="318" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="156.669" y="-5.69848">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="156.669" y="13.3015">Comision</text>
+    <rect style="fill: #ffffff" x="-2.33095" y="22.3015" width="318" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2.33095" y="22.3015" width="318" height="8"/>
+    <rect style="fill: #ffffff" x="-2.33095" y="30.3015" width="318" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-2.33095" y="30.3015" width="318" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="0.669048" y="44.3015">+get_comision(): float</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="0.669048" y1="45.9015" x2="170.069" y2="45.9015"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="0.669048" y="60.3015">+set_comision(in porcentaje:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="0.669048" y="76.3015">+calculo_comision(reserva:Order): float</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="591.653" y="938.313" width="433.5" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="591.653" y="938.313" width="433.5" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="808.403" y="954.313">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="808.403" y="973.313">Ticket</text>
+    <rect style="fill: #ffffff" x="591.653" y="982.313" width="433.5" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="591.653" y="982.313" width="433.5" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="996.313">#ticket_type_name: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="1012.31">#ticket_type_id: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="1028.31">#assigned: bool</text>
+    <rect style="fill: #ffffff" x="591.653" y="1034.31" width="433.5" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="591.653" y="1034.31" width="433.5" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="1048.31">+set_ticket_type_name(in ticket_type_name:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="1064.31">+get_ticket_type_name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="1080.31">+set_ticket_type_id(in ticket_type_id:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.653" y="1096.31">+set_ticket_type_id(): int</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-56.0054" y="1083.06" width="83.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-56.0054" y="1083.06" width="83.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-14.4804" y="1102.06">Address</text>
+    <rect style="fill: #ffffff" x="-56.0054" y="1111.06" width="83.05" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-56.0054" y="1111.06" width="83.05" height="8"/>
+    <rect style="fill: #ffffff" x="-56.0054" y="1119.06" width="83.05" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-56.0054" y="1119.06" width="83.05" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-58.8338" y="999.943" width="88.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-58.8338" y="999.943" width="88.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-14.5338" y="1018.94">Payment</text>
+    <rect style="fill: #ffffff" x="-58.8338" y="1027.94" width="88.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-58.8338" y="1027.94" width="88.6" height="8"/>
+    <rect style="fill: #ffffff" x="-58.8338" y="1035.94" width="88.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-58.8338" y="1035.94" width="88.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="428.007" y="347.172" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="428.007" y="347.172" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="583.157" y="366.172">EventCommission</text>
+    <rect style="fill: #ffffff" x="428.007" y="375.172" width="310.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="428.007" y="375.172" width="310.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="431.007" y="389.172">-id_evento: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="431.007" y="405.172">-comision: float</text>
+    <rect style="fill: #ffffff" x="428.007" y="411.172" width="310.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="428.007" y="411.172" width="310.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="431.007" y="425.172">+set_comision(comision:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="431.007" y="441.172">+get_comision(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="431.007" y="457.172">+calculo_comision(reserva:Order): float</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-45.4" y="348.1" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-45.4" y="348.1" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="109.75" y="367.1">UserCommission</text>
+    <rect style="fill: #ffffff" x="-45.4" y="376.1" width="310.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-45.4" y="376.1" width="310.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-42.4" y="390.1">-id_usuario: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-42.4" y="406.1">-comision: float</text>
+    <rect style="fill: #ffffff" x="-45.4" y="412.1" width="310.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-45.4" y="412.1" width="310.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-42.4" y="426.1">+set_comision(comision:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-42.4" y="442.1">+get_comision(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-42.4" y="458.1">+calculo_comision(reserva:Order): float</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="901.342" y="349.686" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="901.342" y="349.686" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1056.49" y="368.686">PaymentCommission</text>
+    <rect style="fill: #ffffff" x="901.342" y="377.686" width="310.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="901.342" y="377.686" width="310.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="904.342" y="391.686">-id_payment: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="904.342" y="407.686">-comision: float</text>
+    <rect style="fill: #ffffff" x="901.342" y="413.686" width="310.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="901.342" y="413.686" width="310.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="904.342" y="427.686">+set_comision(comision:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="904.342" y="443.686">+get_comision(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="904.342" y="459.686">+calculo_comision(reserva:Order): float</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="128.966" y="706.314" width="356.5" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="128.966" y="706.314" width="356.5" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="307.216" y="722.314">&lt;&lt;Reserva&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="307.216" y="741.314">Order</text>
+    <rect style="fill: #ffffff" x="128.966" y="750.314" width="356.5" height="371"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="128.966" y="750.314" width="356.5" height="371"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="764.314">#items: list&lt;Ticket&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="780.314">#payment: Payment</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="796.314">#invoice: Invoice</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="812.314">#billing_address: Address</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="828.314">#subtotal: float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="844.314">#grant_total: float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="860.314">#commision: float</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="874.814">{documentation = </text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="888.814">porcentaje en</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="902.814">decimal de la</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="916.814">comición}</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="939.314">#commision_total: float</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="953.814">{documentation = </text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="967.814">Valor monetario</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="981.814">de la comisión}</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1004.31">#db: DataBase</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="1018.81">{documentation = </text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="1032.81">Clase de</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="1046.81">conexion a la</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="131.966" y="1060.81">base de datos}</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1083.31">#id_user: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1099.31">#id_event: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1115.31">#id_payment: int</text>
+    <rect style="fill: #ffffff" x="128.966" y="1121.31" width="356.5" height="212"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="128.966" y="1121.31" width="356.5" height="212"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1135.31">+get_payment(): Payment</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1151.31">+set_payment(payment:Payment): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1167.31">+get_billing_address(): Address</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1183.31">+set_billing_address(address:Address): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1199.31">+get_shipping_address(): Address</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1215.31">+set_shipping_address(address:Address): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1231.31">+get_all_items(): list&lt;Tickets&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1247.31">+get_subtotal(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1263.31">+get_commision(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1279.31">+get_grant_total(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1295.31">+set_type_commision(commision:Comision): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1311.31">+get_evento(): Evento</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="131.966" y="1327.31">+commission_calculation(): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="511.643,1019.81 545.559,1019.81 545.559,1020.31 590.646,1020.31 "/>
+    <polygon style="fill: #ffffff" points="486.472,1019.81 500.472,1015.01 514.472,1019.81 500.472,1024.61 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="486.472,1019.81 500.472,1015.01 514.472,1019.81 500.472,1024.61 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="102.789,1019.81 71.0053,1019.81 71.0053,1105.06 28.0498,1105.06 "/>
+    <polygon style="fill: #ffffff" points="127.961,1019.81 113.961,1024.61 99.9609,1019.81 113.961,1015.01 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="127.961,1019.81 113.961,1024.61 99.9609,1019.81 113.961,1015.01 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="102.789,1019.81 72.3663,1019.81 72.3663,1021.94 30.7717,1021.94 "/>
+    <polygon style="fill: #ffffff" points="127.961,1019.81 113.961,1024.61 99.9609,1019.81 113.961,1015.01 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="127.961,1019.81 113.961,1024.61 99.9609,1019.81 113.961,1015.01 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="198.255" y="566.353" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="198.255" y="566.353" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="307.205" y="585.353">Evento</text>
+    <rect style="fill: #ffffff" x="198.255" y="594.353" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="198.255" y="594.353" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="201.255" y="608.353">+user: User</text>
+    <rect style="fill: #ffffff" x="198.255" y="614.353" width="217.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="198.255" y="614.353" width="217.9" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="201.255" y="628.353">+get_commission(): Comision</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="201.255" y="644.353">+get_payment(): Payment</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.216,680.133 307.216,671.331 307.205,671.331 307.205,651.358 "/>
+    <polygon style="fill: #ffffff" points="307.216,705.304 302.416,691.304 307.216,677.304 312.016,691.304 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.216,705.304 302.416,691.304 307.216,677.304 312.016,691.304 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.205,540.176 307.205,508.227 109.75,508.227 109.75,465.107 "/>
+    <polygon style="fill: #ffffff" points="307.205,565.348 302.405,551.348 307.205,537.348 312.005,551.348 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.205,565.348 302.405,551.348 307.205,537.348 312.005,551.348 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.205,540.176 307.205,507.763 583.157,507.763 583.157,464.179 "/>
+    <polygon style="fill: #ffffff" points="307.205,565.348 302.405,551.348 307.205,537.348 312.005,551.348 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.205,565.348 302.405,551.348 307.205,537.348 312.005,551.348 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.205,540.176 307.205,509.02 1056.49,509.02 1056.49,466.693 "/>
+    <polygon style="fill: #ffffff" points="307.205,565.348 302.405,551.348 307.205,537.348 312.005,551.348 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="307.205,565.348 302.405,551.348 307.205,537.348 312.005,551.348 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="307.216" y="1019.81">
+    <tspan x="307.216" y="1019.81"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="628.823" y="638.731" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="628.823" y="638.731" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760.873" y="657.731">DataBase</text>
+    <rect style="fill: #ffffff" x="628.823" y="666.731" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="628.823" y="666.731" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="631.823" y="680.731">-event: EventCommission</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="631.823" y="696.731">-user: UserCommission</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="631.823" y="712.731">-payment: PaymentCommission</text>
+    <rect style="fill: #ffffff" x="628.823" y="718.731" width="264.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="628.823" y="718.731" width="264.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="631.823" y="732.731">+get_event(): EventCommission</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="631.823" y="748.731">+get_user(): UserCommission</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="631.823" y="764.731">+get_payment(): PaymentCommission</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="511.643,1019.81 564.143,1019.81 564.143,704.731 627.814,704.731 "/>
+    <polygon style="fill: #ffffff" points="486.472,1019.81 500.472,1015.01 514.472,1019.81 500.472,1024.61 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="486.472,1019.81 500.472,1015.01 514.472,1019.81 500.472,1024.61 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="285.169" y="120.775" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="285.169" y="120.775" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="440.319" y="139.775">AbstractCommision</text>
+    <rect style="fill: #ffffff" x="285.169" y="148.775" width="310.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="285.169" y="148.775" width="310.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="288.169" y="162.775">+commision</text>
+    <rect style="fill: #ffffff" x="285.169" y="168.775" width="310.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="285.169" y="168.775" width="310.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="288.169" y="182.775">+get_commission(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="288.169" y="198.775">+set_commission(commission:float): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="156.669,101.544 156.669,162.775 284.159,162.775 "/>
+    <polygon style="fill: #ffffff" points="164.669,101.544 156.669,85.5441 148.669,101.544 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="164.669,101.544 156.669,85.5441 148.669,101.544 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440.319,224.017 440.319,284.437 109.75,284.437 109.75,347.093 "/>
+    <polygon style="fill: #ffffff" points="448.319,224.017 440.319,208.017 432.319,224.017 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="448.319,224.017 440.319,208.017 432.319,224.017 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440.319,224.017 440.319,283.973 583.157,283.973 583.157,346.164 "/>
+    <polygon style="fill: #ffffff" points="448.319,224.017 440.319,208.017 432.319,224.017 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="448.319,224.017 440.319,208.017 432.319,224.017 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440.319,224.017 440.319,285.23 1056.49,285.23 1056.49,348.679 "/>
+    <polygon style="fill: #ffffff" points="448.319,224.017 440.319,208.017 432.319,224.017 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="448.319,224.017 440.319,208.017 432.319,224.017 "/>
+  </g>
+</svg>
